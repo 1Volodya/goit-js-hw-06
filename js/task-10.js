@@ -3,10 +3,10 @@ const createButton = document.querySelector("[data-create]");
 const destroyButton = document.querySelector("[data-destroy]");
 const boxesContainer = document.getElementById("boxes");
 
-// console.log(inputNumber);
-// console.log(createButton);
-// console.log(destroyButton);
-// console.log(boxesContainer);
+console.log(inputNumber);
+console.log(createButton);
+console.log(destroyButton);
+console.log(boxesContainer);
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
